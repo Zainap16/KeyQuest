@@ -1,2 +1,3 @@
 # KeyQuest
-KeyQuest is a memorizing webpage that consist of gamification elements. This will aid music students to know their 7 alphabets (ABCDEFG) by heart! This can even be a 5 -10 minute practice routine.
+KeyQuest is a memorizing webpage that consists of gamification elements. This will aid music students to know their 7 alphabets (ABCDEFG) by heart! 
+This can even be considered as a practice routine of 5 -10 minutes.
