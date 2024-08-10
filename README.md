@@ -21,7 +21,7 @@ To get started with KeyQuest, follow these steps:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/KeyQuest.git
+   git clone https://github.com/Zainap16/KeyQuest.git
    ```
 
 2. **Navigate to the Project Directory**
@@ -38,7 +38,7 @@ To get started with KeyQuest, follow these steps:
 
 - Load the `index.html` file in your web browser to access the game.
 - Follow the instructions on the screen to start practicing.
-- Use the provided feedback to improve your knowledge of the musical alphabets.
+- Use the provided feedback to improve your knowledge of the musical alphabet.
 
 ## Contributing
 
