@@ -1,9 +1,4 @@
 # KeyQuest
-Great, here’s a README template for your KeyQuest project:
-
----
-
-# KeyQuest
 
 KeyQuest is an engaging memorization webpage designed to help music students learn and remember their 7 musical alphabets (A-G) through gamification. This tool offers a fun and interactive practice routine that takes just 5-10 minutes, making it an effective addition to any student's practice schedule.
 
