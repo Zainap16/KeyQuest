@@ -1,6 +1,6 @@
 /* reset CSS */
 
-body, nav, footer, main, ul, p{
+body, nav, footer, main, ul, li, p,h2, img, h1, article{
     margin: 0;
     padding: 0;
 }
@@ -12,22 +12,17 @@ body{
 }
 
 /* NAVBAR START*/
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    list-style-type: none;  
+    margin-bottom: 2em; 
+}
+
 nav ul li a{
-
     text-decoration: none;
-    color: black;
-   
 }
-
-nav ul {
-    list-style-type: none;
-    
-}
-
-nav ul li{
-    float: inline-start;
-}
-
 footer, main {
     clear: both;
 }
@@ -48,13 +43,18 @@ footer, main {
 /* MAIN CONTENT START */
 
 .cap{
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bolder;
     color:#fffffe ;
 }
 
+.cap > span{
+    color: #eebbc3;
+}
+
 .content{
     color: #b8c1ec;
+    font-size: 1.5em;
 }
 
 #game a{
@@ -69,7 +69,75 @@ font-weight: bolder;
 
 /* MAIN CONTENT END */
 
+/* FLEXBOX */
 
+.container{
+    display: flex;
+}
+
+/* IMAGE */
+
+main > div  > img{
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-right: 1em;
+    border-bottom-left-radius: 50px;
+}
+
+/* ABOUT */
+
+#about{
+    background-color: #b8c1ec;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+h2{
+    text-align: center;
+    color: #232946;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+/* CARDS */
+.card > img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card{
+    background-color: #232946;
+    max-width: 300px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-title{
+    align-items: center;
+    font-size: 1.25em;  
+}
+
+.card-btn{
+    display: inline-block;            /* Make the button inline-block */
+    padding: 10px 20px;               /* Padding inside the button */
+    background-color: #007bff;        /* Button background color */
+    color: white;                     /* Button text color */
+    text-decoration: none;            /* Remove underline from link */
+    border-radius: 4px;               /* Slightly rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.card-button:hover {
+    background-color: #0056b3;        /* Darker shade on hover */
+  }
+/* BUTTON */
 
 
 
