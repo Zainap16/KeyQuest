@@ -91,6 +91,7 @@ main > div  > img{
     background-color: #b8c1ec;
     border-radius: 20px;
     margin: 10px 10px 10px 10px;
+    padding-bottom: 2%;
 }
 
 h2{
@@ -112,11 +113,12 @@ h2{
     overflow: hidden;
     border-radius: 20px;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
 }
 
 .card-content{
     padding: 10px;
+    color: #b8c1ec;
 }
 
 .card-title{
@@ -127,18 +129,37 @@ h2{
 .card-btn{
     display: inline-block;   
     padding: 10px 20px;     
-    background-color: #007bff;     
-    color: white;   
+    background-color: #eebbc3;     
+    color: #232946;   
     text-decoration: none;    
     border-radius: 4px;   
+    font-weight: bolder;
     transition: background-color 0.3s ease; 
 }
 
 .card-button:hover {
-    background-color: #eebbc3;        /* Darker shade on hover */
+    background-color: #b8c1ec;        /* Darker shade on hover */
   }
 /* BUTTON */
 
+
+
+
+/* GAME LAYOUT */
+
+#game-layout {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #232946;
+}
+
+#game-layout > h1{
+    color: #b8c1ec;
+}
 
 
 
